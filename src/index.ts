@@ -1,3 +1,3 @@
-console.log("Hi");
-
-export function hi() { return "Hii"; }
+export * from './Board';
+export * from './types';
+export * from './algebraic_notation';
