@@ -24,4 +24,11 @@ export interface CastleState {
 
 export type Coordinate = [ row: number, col: number ];
 
+export type Move = [from: Coordinate, to: Coordinate];
+
+export interface PossibleMoves {
+  currentPosition: Coordinate,
+  validMoves: Coordinate[]
+}
+
 export type FEN = string;
